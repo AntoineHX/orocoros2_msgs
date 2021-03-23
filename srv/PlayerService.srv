@@ -1,0 +1,11 @@
+# Pong PlayerService
+# Select a player
+# Return wether the operation is a success
+
+#request constants
+uint8 PLAYER1=1
+uint8 PLAYER2=2
+#request fields
+uint8 player
+---
+bool success
